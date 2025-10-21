@@ -33,12 +33,12 @@ go run main.go
 
 1. **Build the image:**
    ```bash
-   docker build -t your-dockerhub-username/calculator:latest .
+   docker build -t mahmoudelqalini/simple-go-calculator:latest .
    ```
 
 2. **Run the container:**
    ```bash
-   docker run -it your-dockerhub-username/calculator
+   docker run -it mahmoudelqalini/simple-go-calculator
    ```
 
 ---
@@ -57,7 +57,7 @@ Result: 30.00
 
 ## 🌐 Docker Hub
 The image is publicly available on Docker Hub:  
-👉 [https://hub.docker.com/r/your-dockerhub-username/calculator](https://hub.docker.com/r/your-dockerhub-username/calculator)
+👉 [https://hub.docker.com/r/mahmoudelqalini/calculator]
 
 ---
 
