@@ -1,10 +1,32 @@
+# Ignore Git files and folders
 .git
 .gitignore
+
+# Ignore Docker files that shouldn't be copied
 Dockerfile
-README.md
-*.md
-*.png
-*.jpg
-*.jpeg
-node_modules
-__pycache__
+.dockerignore
+
+# Ignore temporary files and system files
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Ignore local development or IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore build and binary files
+bin/
+obj/
+*.exe
+*.out
+*.o
+
+# Ignore environment and credentials
+.env
+*.secret
+*.key
