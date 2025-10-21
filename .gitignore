@@ -1,3 +1,4 @@
+# Build output
 /bin/
 /build/
 /dist/
@@ -9,21 +10,25 @@
 *.test
 *.out
 
-vendor/
-*.mod
-*.sum
+# Dependency directories
+/vendor/
 
-*.tar
+# Logs and temporary files
 *.log
-
-.DS_Store
-Thumbs.db
-
-.vscode/
-.idea/
-*.swp
-
 *.tmp
 *.bak
 *.old
 *.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+
+# Archives
+*.tar
+

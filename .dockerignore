@@ -1,12 +1,8 @@
-# Ignore Git files and folders
+# Ignore Git files
 .git
 .gitignore
 
-# Ignore Docker files that shouldn't be copied
-Dockerfile
-.dockerignore
-
-# Ignore temporary files and system files
+# Ignore logs, temp, and system files
 *.log
 *.tmp
 *.swp
@@ -14,7 +10,7 @@ Dockerfile
 *.DS_Store
 Thumbs.db
 
-# Ignore local development or IDE files
+# Ignore IDE and editor files
 .vscode/
 .idea/
 *.code-workspace
@@ -22,6 +18,8 @@ Thumbs.db
 # Ignore build and binary files
 bin/
 obj/
+build/
+dist/
 *.exe
 *.out
 *.o
@@ -30,3 +28,6 @@ obj/
 .env
 *.secret
 *.key
+
+# Optional: exclude vendor if not needed
+/vendor/
