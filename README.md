@@ -57,7 +57,7 @@ Result: 30.00
 
 ## 🌐 Docker Hub
 The image is publicly available on Docker Hub:  
-👉 [https://hub.docker.com/r/mahmoudelqalini/calculator]
+👉 [https://hub.docker.com/r/mahmoudelqalini/simple-go-calculator]
 
 ---
 
